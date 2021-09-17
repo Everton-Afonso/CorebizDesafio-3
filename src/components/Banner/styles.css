@@ -1,0 +1,53 @@
+.banner-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.banner-background {
+  margin-top: 1rem;
+  border-radius: 10px;
+  width: 75rem;
+  height: 13.75rem;
+  object-fit: cover;
+}
+.banner-picture {
+  margin-top: -3.75rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.name {
+  font-size: 1.2rem;
+  padding-bottom: 3px;
+}
+.bio {
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .banner-background {
+    width: 65rem;
+    height: 10rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .banner-background {
+    width: 50rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .banner-background {
+    width: 40rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  .banner-background {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .banner-background {
+    width: 22rem;
+  }
+}
