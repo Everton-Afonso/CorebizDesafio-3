@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-import backgroundBanner from "./assets/banner.jpg"
 import api from "../../services/api";
 
 import "./styles.css";
@@ -20,9 +19,7 @@ function Banner() {
 
   return (
     <section className="banner-conteiner">
-      <div className="banner">
-        <img className="banner-background" src={backgroundBanner} alt="Banner" />
-      </div>
+      <div className="banner"></div>
 
       <img className="banner-picture" src={user.avatar_url} alt="teste" />
       <h1 className="name">{user.name}</h1>

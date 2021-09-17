@@ -2,8 +2,8 @@
   width: 100%;
   position: relative;
   margin-top: 20px;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .contacts {
   background: var(--background);

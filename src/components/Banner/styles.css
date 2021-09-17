@@ -4,12 +4,15 @@
   align-items: center;
   width: 100%;
 }
-.banner-background {
+.banner {
+  background-image: url("./assets/banner.jpg");
   margin-top: 1rem;
   border-radius: 10px;
   width: 75rem;
   height: 13.75rem;
-  object-fit: cover;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .banner-picture {
   margin-top: -3.75rem;
@@ -26,28 +29,28 @@
   text-align: center;
 }
 @media screen and (max-width: 1200px) {
-  .banner-background {
+  .banner {
     width: 65rem;
     height: 10rem;
   }
 }
 @media screen and (max-width: 1000px) {
-  .banner-background {
+  .banner {
     width: 50rem;
   }
 }
 @media screen and (max-width: 760px) {
-  .banner-background {
+  .banner {
     width: 40rem;
   }
 }
 @media screen and (max-width: 580px) {
-  .banner-background {
+  .banner {
     width: 30rem;
   }
 }
 @media screen and (max-width: 450px) {
-  .banner-background {
+  .banner {
     width: 22rem;
   }
 }
