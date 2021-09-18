@@ -6,7 +6,6 @@
   justify-content: center;
 }
 .contacts {
-  background: var(--background);
   gap: 3rem;
   padding: 10px;
   display: flex;
@@ -30,11 +29,12 @@
 }
 @media (max-width: 1100px) {
   .container-contacts {
-    bottom: 20px;
+    bottom: 3px;
     z-index: 1;
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
+    background: var(--background);
   }
 }

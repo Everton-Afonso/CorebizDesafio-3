@@ -78,6 +78,21 @@ export const data = {
           background: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
         }
       ]
+    },
+    {
+      title: "🔥 Assistir 🔥",
+      posts: [
+        {
+          title: "RocketSeat",
+          link: "https://www.youtube.com/c/RocketSeat",
+          background: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        },
+        {
+          title: "Curso em Video",
+          link: "https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
+          background: "https://images.unsplash.com/photo-1567443024551-f3e3cc2be870?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        }
+      ]
     }
   ]
 }
