@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Portfólio
 
 Desenvolver um portfólio onde posso mostrar meus projetos que estou fazendo no decorrer da minha carreira.
-Para visualizar como o projeto ficou clique nesse link: [Projeto](https://corebiz-desafio-1-nu.vercel.app/)
+Para visualizar como o projeto ficou clique nesse link: [Projeto](https://corebiz-desafio-3.vercel.app/)
 
 Siga os passos abaixo caso você queira rodar o projeto na sua maquina:
 ```bash
