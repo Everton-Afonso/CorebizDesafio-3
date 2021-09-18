@@ -2,13 +2,15 @@ import React from "react";
 
 import Banner from "./components/Banner";
 import Contacts from "./components/Contacts";
+import Favorites from "./components/Favorites";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Banner/>
       <Contacts/>
-    </div>
+      <Favorites/>
+    </main>
   );
 }
 

@@ -1,0 +1,76 @@
+.favorites-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.favorites-buttons {
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  gap: 5px;
+}
+.favorite-button {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.favorites {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0 8.5rem 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+.favorite {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  text-decoration: none;
+  height: 200px;
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: transform 0.2s;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.favorite .title {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  border-radius: 10px;
+}
+.favorite:hover {
+  transform: translateY(-12px);
+}
+.inactive:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.inactive {
+  cursor: pointer;
+}
+.active {
+  background: #000;
+  color: white;
+}
+@media screen and (max-width: 1200px) {
+  .favorites {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 550px) {
+  .favorites-buttons {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 300px;
+  }
+  .favorites-buttons::-webkit-scrollbar {
+    display: none;
+  }
+}
