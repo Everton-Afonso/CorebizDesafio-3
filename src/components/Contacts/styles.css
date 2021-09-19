@@ -29,12 +29,15 @@
 }
 @media (max-width: 1100px) {
   .container-contacts {
-    bottom: 3px;
     z-index: 1;
+  }
+  .contacts {
     position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    bottom: 1.5rem;
     background: var(--background);
+    border-radius: 1rem;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
   }
 }

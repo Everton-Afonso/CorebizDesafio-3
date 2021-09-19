@@ -10,7 +10,7 @@
   border-radius: 10px;
   width: 75rem;
   height: 13.75rem;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -32,25 +32,9 @@
   .banner {
     width: 65rem;
     height: 10rem;
+    width: 90%;
   }
-}
-@media screen and (max-width: 1000px) {
-  .banner {
-    width: 50rem;
-  }
-}
-@media screen and (max-width: 760px) {
-  .banner {
-    width: 40rem;
-  }
-}
-@media screen and (max-width: 580px) {
-  .banner {
-    width: 30rem;
-  }
-}
-@media screen and (max-width: 450px) {
-  .banner {
-    width: 22rem;
+  .bio {
+    width: 90%;
   }
 }

@@ -26,7 +26,6 @@
 }
 .favorite {
   display: flex;
-  align-items: flex-end;
   position: relative;
   text-decoration: none;
   height: 200px;
@@ -37,6 +36,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  align-items: flex-end;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.favorite:hover {
+  transform: translateY(-12px);
 }
 .favorite .title {
   color: white;
@@ -45,9 +49,6 @@
   background: rgba(0, 0, 0, 0.8);
   padding: 5px;
   border-radius: 10px;
-}
-.favorite:hover {
-  transform: translateY(-12px);
 }
 .inactive:hover {
   background: rgba(0, 0, 0, 0.2);
@@ -62,6 +63,7 @@
 @media screen and (max-width: 1200px) {
   .favorites {
     grid-template-columns: repeat(2, 1fr);
+    width: 90%;
   }
 }
 @media screen and (max-width: 550px) {
@@ -72,5 +74,9 @@
   }
   .favorites-buttons::-webkit-scrollbar {
     display: none;
+  }
+  .favorite .title {
+    font-size: 14px;
+    font-weight: 400;
   }
 }
